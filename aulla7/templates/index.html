@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{{ url_for('upload')}}" enctype="multipart/form-data" method="post">
+    <p>
+        <input type="file" name="imagem" id="imagem">
+    </p>
+    <p>
+    <button type="submit">Enviar</button>
+    </p>
+    </form>
+</body>
+</html>
